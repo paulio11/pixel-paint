@@ -1,0 +1,9 @@
+node_modules/
+dist/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
