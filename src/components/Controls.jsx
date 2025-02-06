@@ -45,11 +45,6 @@ const Controls = () => {
           <label htmlFor="color" onClick={() => colorInput.current.click()}>
             Color
           </label>
-          <div
-            className="selected-color"
-            style={{ backgroundColor: selectedColor }}
-            onClick={() => colorInput.current.click()}
-          ></div>
           <input
             ref={colorInput}
             type="color"
