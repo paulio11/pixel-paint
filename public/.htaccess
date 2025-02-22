@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /projects/pixelpaint/
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /projects/pixelpaint/index.html [L]
